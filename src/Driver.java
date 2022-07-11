@@ -11,7 +11,7 @@ import java.util.stream.IntStream;
 
 public class Driver {
 
-	static int[] sleepOptions = {500, 750, 1000, 1500, 2000}; 
+	static int[] sleepOptions = {50, 100, 500, 750, 1000, 1500, 2000}; 
 
 	public static void main(String[] args) {
 
@@ -71,6 +71,7 @@ public class Driver {
 			e.printStackTrace();
 			return;
 		}
-		System.out.println("Helping student: " + name + " took " + sleepTime + " units");
+		System.out.println(Thread.currentThread().getName() 
+				+ ": Helping student: " + name + " took " + sleepTime + " units");
 	}
 }

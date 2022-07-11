@@ -27,7 +27,8 @@ public class Student extends Thread {
 		
 		Driver.TAHelp(name);
 		
-		System.out.println(name + " has left the TA's office");
+		System.out.println(Thread.currentThread().getName() + ": "
+				+ name + " has left the TA's office");
 		
 		sem.release();
 		
