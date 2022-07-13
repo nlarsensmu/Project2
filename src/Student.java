@@ -43,7 +43,7 @@ public class Student extends Thread {
 				e.printStackTrace();
 			}
 			
-			TA.TAHelp(name);
+			Driver.TAHelp(name);
 			
 			print("left the TA's office, relasing TA");
 			
@@ -54,8 +54,8 @@ public class Student extends Thread {
 			Random randy = new Random();
 			int sleepTime;
 			try {
-				int index = Math.abs(randy.nextInt()) % TA.sleepOptions.length;
-				sleepTime = TA.sleepOptions[index];
+				int index = Math.abs(randy.nextInt()) % Driver.sleepOptions.length;
+				sleepTime = Driver.sleepOptions[index];
 				
 				print("working on their own for " + sleepTime + " units");
 				Thread.sleep(sleepTime);
