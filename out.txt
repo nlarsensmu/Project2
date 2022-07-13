@@ -1,0 +1,192 @@
+Thread-1 Steven:		waiting on a chair
+Thread-0 Nicholas:		waiting on a chair
+Thread-5 Alice:		waiting on a chair
+Thread-3 Trystan:		waiting on a chair
+Thread-2 Carter:		waiting on a chair
+Thread-5 Alice:		Has a chair waiting on TA
+Thread-0 Nicholas:		Has a chair waiting on TA
+Thread-1 Steven:		Has a chair waiting on TA
+Thread-5 Alice:		has TA's attention releasing chair
+Thread-3 Trystan:		Has a chair waiting on TA
+Thread-4 Bob:		waiting on a chair
+Thread-5 TA:		Helping student Alice
+Thread-5 TA:		Alice took 100 units
+Thread-5 Alice:		left the TA's office, relasing TA
+Thread-0 Nicholas:		has TA's attention releasing chair
+Thread-0 TA:		Helping student Nicholas
+Thread-2 Carter:		Has a chair waiting on TA
+Thread-5 Alice:		working on their own for 2000 units
+Thread-0 TA:		Nicholas took 500 units
+Thread-0 Nicholas:		left the TA's office, relasing TA
+Thread-0 Nicholas:		working on their own for 750 units
+Thread-1 Steven:		has TA's attention releasing chair
+Thread-1 TA:		Helping student Steven
+Thread-4 Bob:		Has a chair waiting on TA
+Thread-1 TA:		Steven took 500 units
+Thread-1 Steven:		left the TA's office, relasing TA
+Thread-3 Trystan:		has TA's attention releasing chair
+Thread-1 Steven:		working on their own for 100 units
+Thread-3 TA:		Helping student Trystan
+Thread-1 Steven:		finished their task that took 100 units
+Thread-1 Steven:		waiting on a chair
+Thread-1 Steven:		Has a chair waiting on TA
+Thread-0 Nicholas:		finished their task that took 750 units
+Thread-0 Nicholas:		waiting on a chair
+Thread-5 Alice:		finished their task that took 2000 units
+Thread-5 Alice:		waiting on a chair
+Thread-3 TA:		Trystan took 1000 units
+Thread-3 Trystan:		left the TA's office, relasing TA
+Thread-3 Trystan:		working on their own for 500 units
+Thread-2 Carter:		has TA's attention releasing chair
+Thread-2 TA:		Helping student Carter
+Thread-0 Nicholas:		Has a chair waiting on TA
+Thread-3 Trystan:		finished their task that took 500 units
+Thread-3 Trystan:		waiting on a chair
+Thread-2 TA:		Carter took 500 units
+Thread-2 Carter:		left the TA's office, relasing TA
+Thread-2 Carter:		working on their own for 750 units
+Thread-4 Bob:		has TA's attention releasing chair
+Thread-4 TA:		Helping student Bob
+Thread-5 Alice:		Has a chair waiting on TA
+Thread-2 Carter:		finished their task that took 750 units
+Thread-2 Carter:		waiting on a chair
+Thread-4 TA:		Bob took 750 units
+Thread-4 Bob:		left the TA's office, relasing TA
+Thread-4 Bob:		working on their own for 500 units
+Thread-1 Steven:		has TA's attention releasing chair
+Thread-1 TA:		Helping student Steven
+Thread-3 Trystan:		Has a chair waiting on TA
+Thread-1 TA:		Steven took 50 units
+Thread-1 Steven:		left the TA's office, relasing TA
+Thread-1 Steven:		working on their own for 100 units
+Thread-0 Nicholas:		has TA's attention releasing chair
+Thread-0 TA:		Helping student Nicholas
+Thread-2 Carter:		Has a chair waiting on TA
+Thread-1 Steven:		finished their task that took 100 units
+Thread-1 Steven:		waiting on a chair
+Thread-4 Bob:		finished their task that took 500 units
+Thread-4 Bob:		waiting on a chair
+Thread-0 TA:		Nicholas took 1500 units
+Thread-0 Nicholas:		left the TA's office, relasing TA
+Thread-0 Nicholas:		working on their own for 500 units
+Thread-5 Alice:		has TA's attention releasing chair
+Thread-5 TA:		Helping student Alice
+Thread-1 Steven:		Has a chair waiting on TA
+Thread-5 TA:		Alice took 100 units
+Thread-5 Alice:		left the TA's office, relasing TA
+Thread-3 Trystan:		has TA's attention releasing chair
+Thread-5 Alice:		working on their own for 1000 units
+Thread-4 Bob:		Has a chair waiting on TA
+Thread-3 TA:		Helping student Trystan
+Thread-0 Nicholas:		finished their task that took 500 units
+Thread-0 Nicholas:		waiting on a chair
+Thread-5 Alice:		finished their task that took 1000 units
+Thread-5 Alice:		waiting on a chair
+Thread-3 TA:		Trystan took 2000 units
+Thread-3 Trystan:		left the TA's office, relasing TA
+Thread-2 Carter:		has TA's attention releasing chair
+Thread-3 Trystan:		working on their own for 50 units
+Thread-0 Nicholas:		Has a chair waiting on TA
+Thread-2 TA:		Helping student Carter
+Thread-3 Trystan:		finished their task that took 50 units
+Thread-3 Trystan:		waiting on a chair
+Thread-2 TA:		Carter took 750 units
+Thread-2 Carter:		left the TA's office, relasing TA
+Thread-2 Carter:		working on their own for 2000 units
+Thread-1 Steven:		has TA's attention releasing chair
+Thread-1 TA:		Helping student Steven
+Thread-5 Alice:		Has a chair waiting on TA
+Thread-1 TA:		Steven took 1500 units
+Thread-1 Steven:		left the TA's office, relasing TA
+Thread-1 Steven:		working on their own for 500 units
+Thread-4 Bob:		has TA's attention releasing chair
+Thread-4 TA:		Helping student Bob
+Thread-3 Trystan:		Has a chair waiting on TA
+Thread-2 Carter:		finished their task that took 2000 units
+Thread-2 Carter:		waiting on a chair
+Thread-1 Steven:		finished their task that took 500 units
+Thread-1 Steven:		waiting on a chair
+Thread-4 TA:		Bob took 2000 units
+Thread-4 Bob:		left the TA's office, relasing TA
+Thread-4 Bob:		working on their own for 100 units
+Thread-0 Nicholas:		has TA's attention releasing chair
+Thread-0 TA:		Helping student Nicholas
+Thread-2 Carter:		Has a chair waiting on TA
+Thread-4 Bob:		finished their task that took 100 units
+Thread-4 Bob:		waiting on a chair
+Thread-0 TA:		Nicholas took 1500 units
+Thread-0 Nicholas:		left the TA's office, relasing TA
+Thread-0 Nicholas:		working on their own for 50 units
+Thread-5 Alice:		has TA's attention releasing chair
+Thread-5 TA:		Helping student Alice
+Thread-1 Steven:		Has a chair waiting on TA
+Thread-0 Nicholas:		finished their task that took 50 units
+Thread-0 Nicholas:		waiting on a chair
+Thread-5 TA:		Alice took 100 units
+Thread-5 Alice:		left the TA's office, relasing TA
+Thread-5 Alice:		working on their own for 750 units
+Thread-3 Trystan:		has TA's attention releasing chair
+Thread-3 TA:		Helping student Trystan
+Thread-4 Bob:		Has a chair waiting on TA
+Thread-3 TA:		Trystan took 500 units
+Thread-3 Trystan:		left the TA's office, relasing TA
+Thread-3 Trystan:		working on their own for 2000 units
+Thread-2 Carter:		has TA's attention releasing chair
+Thread-2 TA:		Helping student Carter
+Thread-0 Nicholas:		Has a chair waiting on TA
+Thread-2 TA:		Carter took 100 units
+Thread-2 Carter:		left the TA's office, relasing TA
+Thread-2 Carter:		working on their own for 2000 units
+Thread-1 Steven:		has TA's attention releasing chair
+Thread-1 TA:		Helping student Steven
+Thread-1 TA:		Steven took 100 units
+Thread-1 Steven:		left the TA's office, relasing TA
+Thread-1 Steven:		working on their own for 50 units
+Thread-4 Bob:		has TA's attention releasing chair
+Thread-4 TA:		Helping student Bob
+Thread-5 Alice:		finished their task that took 750 units
+Thread-5 Alice:		waiting on a chair
+Thread-5 Alice:		Has a chair waiting on TA
+Thread-1 Steven:		finished their task that took 50 units
+Thread-4 TA:		Bob took 500 units
+Thread-4 Bob:		left the TA's office, relasing TA
+Thread-4 Bob:		working on their own for 1500 units
+Thread-0 Nicholas:		has TA's attention releasing chair
+Thread-0 TA:		Helping student Nicholas
+Thread-3 Trystan:		finished their task that took 2000 units
+Thread-3 Trystan:		waiting on a chair
+Thread-3 Trystan:		Has a chair waiting on TA
+Thread-2 Carter:		finished their task that took 2000 units
+Thread-2 Carter:		waiting on a chair
+Thread-2 Carter:		Has a chair waiting on TA
+Thread-4 Bob:		finished their task that took 1500 units
+Thread-4 Bob:		waiting on a chair
+Thread-0 TA:		Nicholas took 2000 units
+Thread-0 Nicholas:		left the TA's office, relasing TA
+Thread-0 Nicholas:		working on their own for 1500 units
+Thread-5 Alice:		has TA's attention releasing chair
+Thread-5 TA:		Helping student Alice
+Thread-4 Bob:		Has a chair waiting on TA
+Thread-5 TA:		Alice took 500 units
+Thread-5 Alice:		left the TA's office, relasing TA
+Thread-5 Alice:		working on their own for 2000 units
+Thread-3 Trystan:		has TA's attention releasing chair
+Thread-3 TA:		Helping student Trystan
+Thread-3 TA:		Trystan took 500 units
+Thread-3 Trystan:		left the TA's office, relasing TA
+Thread-3 Trystan:		working on their own for 750 units
+Thread-2 Carter:		has TA's attention releasing chair
+Thread-2 TA:		Helping student Carter
+Thread-2 TA:		Carter took 100 units
+Thread-2 Carter:		left the TA's office, relasing TA
+Thread-2 Carter:		working on their own for 750 units
+Thread-4 Bob:		has TA's attention releasing chair
+Thread-4 TA:		Helping student Bob
+Thread-0 Nicholas:		finished their task that took 1500 units
+Thread-4 TA:		Bob took 500 units
+Thread-4 Bob:		left the TA's office, relasing TA
+Thread-4 Bob:		working on their own for 100 units
+Thread-4 Bob:		finished their task that took 100 units
+Thread-3 Trystan:		finished their task that took 750 units
+Thread-2 Carter:		finished their task that took 750 units
+Thread-5 Alice:		finished their task that took 2000 units

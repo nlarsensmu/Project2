@@ -9,7 +9,7 @@ import java.util.Random;
 import java.util.concurrent.*;
 import java.util.stream.IntStream;
 
-public class Driver {
+public class TA {
 
 	static int[] sleepOptions = {50, 100, 500, 750, 1000, 1500, 2000}; 
 
@@ -24,13 +24,14 @@ public class Driver {
     	BufferedReader reader;
 
 		Semaphore sem = new Semaphore(1);
+		Semaphore semChair = new Semaphore(3);
 		
     	try {
     		reader = new BufferedReader(new FileReader(fileName));
 
     		String line = reader.readLine();
     		while (line != null) {
-    			Student t = new Student(sem, line);
+    			Student t = new Student(sem, semChair, line);
     			students.add(t);
     			line = reader.readLine();
     		}
@@ -43,10 +44,6 @@ public class Driver {
     	
     	// Shuffle up the order the students start
     	Collections.shuffle(students);
-    	System.out.println("Random order:");
-    	for (Student t : students) {
-    		System.out.println("\t" + t.getStudentName());
-    	}
     	
     	for (int i = 0; i < students.size(); i++)
     		students.get(i).start();
@@ -54,8 +51,7 @@ public class Driver {
 	
 	
 	public static void TAHelp(String name) {
-		System.out.println(Thread.currentThread().getName() 
-				+ ": Helping student "
+		print("Helping student "
 				+ name);
 		// So some work
 		Random randy = new Random();
@@ -71,7 +67,10 @@ public class Driver {
 			e.printStackTrace();
 			return;
 		}
-		System.out.println(Thread.currentThread().getName() 
-				+ ": Helping student: " + name + " took " + sleepTime + " units");
+		print(name + " took " + sleepTime + " units");
+	}
+	
+	public static void print(String s) {
+		System.out.println(Thread.currentThread().getName() + " TA:\t\t" + s);
 	}
 }
